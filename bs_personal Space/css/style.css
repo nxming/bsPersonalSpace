@@ -1,0 +1,180 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #f5f8f9;
+}
+.container-fluid{
+  padding: 0;
+}
+/* 导航栏 */
+.navbar-right li a img {
+  width: 20px;
+  height: 20px;
+}
+.nav-border li{
+ border-bottom: 0px solid rgb(209, 209, 209);
+}
+@media(max-width:767px){
+  .nav-border li{
+    border-bottom: 1px solid rgb(209, 209, 209);
+  }
+}
+/* 身体 */
+.user-msg-div {
+  background: #ffffff;
+  border: #f5f8f9;
+  padding: 30px 0 10px 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+.user-msg-div img {
+  width: 100px;
+  height: 100px;
+}
+.my-btn {
+  margin-top: 5px;
+  color: white;
+  display: inline-block;
+  background: #ffffff;
+  color: #38b7ea;
+  width: 100px;
+  padding: 6px 24px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid #38b7ea;
+  border-radius: 20px;
+}
+.btn-positive {
+  background-color: #38b7ea;
+  color: #ffffff;
+}
+.works-div {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.msg-link-div {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.msg-link-div img {
+  width: 20px;
+  height: 20px;
+}
+
+.msg-link-div a {
+  padding: 10px;
+}
+.posts-div {
+  background: #ffffff;
+  border: #f5f8f9;
+  padding: 10px 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+  margin-bottom: 20px;
+  /* width: 100%; */
+}
+.left-img,
+.right-img,
+.follow-left,
+.follow-right {
+  width: 30px;
+}
+.back-list-img {
+  width: 30px;
+  height: 30px;
+}
+.back-msg-div {
+  padding: 0 30px;
+}
+.other-head-img {
+  width: 20%;
+  float: left;
+  margin-right: 5%;
+}
+.other-add-img {
+  width: 10%;
+}
+.name-list-div {
+  float: left;
+  width: 60%;
+}
+
+.name-list-div p {
+  margin-bottom: 3px;
+}
+
+.name-list-div p:last-child {
+  font-size: 12px;
+  color: #abaeb0;
+}
+.right-work {
+  margin-top: 10px;
+}
+.back-list {
+  display: block;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding: 10px 25px;
+  position: relative;
+  /* height: 250px; */
+}
+.list-div ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0px;
+  width: 200%;
+}
+
+.list-div ul li {
+  float: left;
+}
+
+.list-div {
+  position: absolute;
+  /* width: 100%; */
+  overflow: hidden;
+}
+.posts-list-div {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.posts-list-div h6 {
+  color: #abaeb0;
+}
+
+.posts-list-div img {
+  width: 100%;
+}
+.posts-list-div h6 {
+  color: #abaeb0;
+}
+.back-div h5{
+  padding:  0 30px;
+}
+.back-ul li{
+  margin-bottom: 20px;
+}
+.back-ul span img{
+  width: 50px;
+  float: right;
+}
+/* 脚部 */
+footer {
+  border-top: 1px solid #eeeeee;
+  background: #f9f9f9;
+  padding: 30px;
+}
